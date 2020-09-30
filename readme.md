@@ -96,15 +96,7 @@ Each response object has the following keys -
 All dependencies are listed in *requirements.txt* file. 
 
 1. To install all dependencies run - 
-
-    ```bash
-    $ sudo pip freeze -r requirements.txt
-    ```
+    $ sudo pip install -r requirements.txt
 
 2. Start the api server
-
-    ```bash 
     $ python app.py
-    ```
-
-
